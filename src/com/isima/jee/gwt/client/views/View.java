@@ -1,9 +1,10 @@
 package com.isima.jee.gwt.client.views;
 
+import com.google.gwt.user.client.ui.Panel;
 import com.google.gwt.user.client.ui.RootPanel;
 
 public abstract class View {
-	protected RootPanel p;
+	protected Panel p;
 	public void setPanel(String id){
 		p = RootPanel.get(id);
 		if(p == null)

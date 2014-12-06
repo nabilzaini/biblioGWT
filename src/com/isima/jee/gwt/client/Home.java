@@ -14,6 +14,7 @@ import com.isima.jee.gwt.client.service.ServiceInterfaceAsync;
 import com.isima.jee.gwt.client.views.AuthorsAdd;
 import com.isima.jee.gwt.client.views.AuthorsDetails;
 import com.isima.jee.gwt.client.views.AuthorsList;
+import com.isima.jee.gwt.client.views.BooksAdd;
 import com.isima.jee.gwt.client.views.View;
 
 
@@ -29,6 +30,7 @@ public class Home implements EntryPoint {
 		views = new HashMap<String, View>();
 		views.put("author_list", new AuthorsList("content"));
 		views.put("author_add", new AuthorsAdd("content"));
+		views.put("book_add", new BooksAdd("content"));
 		views.put("author_details", new AuthorsDetails("content"));
 		views.put("author_edit", new AuthorsDetails("content"));
 		
