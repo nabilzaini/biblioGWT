@@ -25,4 +25,12 @@ public class URL {
 	public static String getParameter(String name){
 		return params.get(name);
 	}
+	public static void go(String path){
+		String url = Window.Location.getHref();
+		if(url.indexOf('#') != -1){
+			url = url.substring(0, url.indexOf('#'));
+		}
+		url = url + "#" + path;
+		Window.Location.assign(url);
+	}
 }
