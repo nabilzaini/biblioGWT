@@ -1,3 +1,0 @@
-# Module bibliogwt
-# RPC service class, partial path of RPC policy file
-com.isima.jee.gwt.client.service.ServiceInterface, 4E06DD89D0A37F1ABEB7AC3086F49FA8.gwt.rpc
