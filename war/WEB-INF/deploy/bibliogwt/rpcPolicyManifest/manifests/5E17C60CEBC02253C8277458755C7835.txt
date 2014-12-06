@@ -1,0 +1,2 @@
+serviceClass: com.isima.jee.gwt.client.service.ServiceInterface
+path: 4E06DD89D0A37F1ABEB7AC3086F49FA8.gwt.rpc

@@ -1,0 +1,2 @@
+# Module com.isima.jee.wsModule
+# RPC service class, partial path of RPC policy file
