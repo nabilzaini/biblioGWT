@@ -32,6 +32,7 @@ public class Home implements EntryPoint {
 		views.put("author_add", new AuthorsAdd("content"));
 		views.put("book_add", new BooksAdd("content"));
 		views.put("author_details", new AuthorsDetails("content"));
+		views.put("author_edit", new AuthorsDetails("content"));
 		
 		URL.updateParameters();
 	}
